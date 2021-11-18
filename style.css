@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(239, 239, 239, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Merriweather, serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: gray;
+  font-size: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+body header {
+  order: 1;
+}
+
+body main {
+  order: 2;
+
+}
+
+body footer {
+  order: 3;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  height: 50px;
+  padding: 15px;
+  color: white;
+}
+
+.header h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.header:nth-child( 1 ) {
+  order: 1;
+}
+
+.header:nth-child( 2 ) {
+  order: 3;
+}
+
+.header:nth-child( 3 ) {
+  order: 2;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.loginInput {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 4px;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+#concorda {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#submit-btn {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0;
+}
+
+.btnDisabled {
+  background-color: gray;
+}
+
+.colorBtn {
+  background-color: purple;
+  color: white;
+}
+
+.formMeio {
+  display: flex;
+  line-height: 25px;
+}
+
+.form2Line , .form2Line2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.form2Line p , .form2Line label {
+  padding-left: 5px;
+}
+
+#form2Left , #form2Right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 150px;
+}
+
+.formFim {
+  display: flex;
+  flex-direction: column;
+}
+
+#avaliacao0a10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+  padding-bottom: 20px;
+}
+
+#avaliacao0a10 label {
+  padding-left: 1px;
+}
+
+#textarea {
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+  border: solid purple 1px;
+  margin-top: 5px;
+  resize: none;
+}
+
+#campoComentario {
+  display: flex;
+  align-items: flex-end;
+}
+
+#counter {
+  position: relative;
+  right: 2.2rem;
+  bottom: 0.3rem;
+}
+
+#divLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+#divLeft h2 {
+  margin: 40px 0;
+}
+
+#divLeft div {
+  margin: 5px 0;
+}
+
+#divLeft #formInicio {
+  width: 100%;
+}
+
+#nomeSobrenome {
+  display: flex;
+  justify-content: space-between;
+}
+
+#divLeft #emailCasa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#input-email {
+  width: 46%; /* 4% restante em margin? */
+}
+
+#casa {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4px;
+}
+
+#house {
+  width: 80%;
+  margin-left: 0;
+  background-color: white;
+}
+
+#labelCasa {
+  width: 20%;
+  padding: 0 10px;
+}
+
+#divRight {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linhaSeparadoraForm {
+  background-color: gray;
+  width: 100%;
+  height: 1px;
+  margin: 5px 4px;
+}
